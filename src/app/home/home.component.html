@@ -1,0 +1,9 @@
+<form action="">
+  <input type="text" name="note" placeholder="add notes" [(ngModel)]="note">
+  <button (click)="add_note()">add</button>
+</form>
+<ul>
+  <li *ngFor="let note of notes">
+    {{note}}
+  </li>
+</ul>
