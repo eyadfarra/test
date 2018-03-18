@@ -1,3 +1,10 @@
 <p>
   about works!
 </p>
+<button (click)="sendMeHome()"> back to home </button>
+
+<ul>
+  <li *ngFor="let note of notes">
+    {{note}}
+  </li>
+</ul>
